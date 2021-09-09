@@ -5,10 +5,11 @@
     --text-color: #333;
     --border-color: #dbdbdb;
     --star-gold-color: #ffce3e;
-
+    
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - Var(--navbar-height));
+    --header-sort-bar-height: 46px;
 }
 
 * {
@@ -23,16 +24,6 @@ html {
 }
 
 /* Resposive */
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
 .grid__row {
     display: flex;
     flex-wrap: wrap;
